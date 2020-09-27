@@ -17,7 +17,7 @@ items:
         app.openshift.io/runtime: nodejs
       annotations:
         nodeshift/git-branch: master
-        nodeshift/git-commit: a94e1afcd508f225fb107766d5403d1f1c03fa0d
+        nodeshift/git-commit: 19f541ae45b92131f89b7228c29fb2a979442ce6
     spec:
       replicas: 1
       revisionHistoryLimit: 2
@@ -45,7 +45,7 @@ items:
             app: coolstore-ui
           annotations:
             nodeshift/git-branch: master
-            nodeshift/git-commit: a94e1afcd508f225fb107766d5403d1f1c03fa0d
+            nodeshift/git-commit: 19f541ae45b92131f89b7228c29fb2a979442ce6
         spec:
           containers:
             - image: coolstore-ui
@@ -82,4 +82,4 @@ items:
         app.openshift.io/runtime: nodejs
       annotations:
         nodeshift/git-branch: master
-        nodeshift/git-commit: a94e1afcd508f225fb107766d5403d1f1c03fa0d
+        nodeshift/git-commit: 19f541ae45b92131f89b7228c29fb2a979442ce6
